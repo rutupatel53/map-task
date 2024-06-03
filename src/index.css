@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-container {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.hover-effect:hover {
+  transform: scale(0.92);
+  background-color: #19294a;
+}
